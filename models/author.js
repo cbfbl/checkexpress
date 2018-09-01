@@ -36,7 +36,7 @@ AuthorSchema
     return moment(this.date_of_birth).format('D.M.YYYY')+' - '+'today';
   }
   else {
-    return 'No data exists';
+    return 'No data exists for author birth or death';
   }
 });
 
